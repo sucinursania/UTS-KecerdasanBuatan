@@ -1,0 +1,30 @@
+# Soal 1 - Sistem Pakar Diagnosis Hama Tanaman
+## Kasus:
+Seorang petani ingin sistem AI yang bisa membantu menentukan jenis hama tanaman berdasarkan kombinasi gejala seperti:
+- Daun menguning
+- Terdapat bercak hitam
+- Daun berlubang
+- Tanaman layu
+
+## Tugas:
+1. Membuat sistem pakar berbasis aturan logika proposisional.
+2. Menggunakan pseudocode dan implementasi Python dengan Experta.
+3. Menjelaskan alur inferensi dari input → output.
+
+## Logika Proposisional:
+- Jika daun menguning DAN bercak hitam → Jamur
+- Jika daun menguning TAPI tidak ada bercak hitam → Kutu Daun
+- Jika daun berlubang → Ulat
+- Jika tanaman layu DAN daun menguning → Nematoda Akar
+
+## Pseudocode:
+IF daun_menguning AND bercak_hitam THEN hama = jamur 
+ELSE IF daun_menguning AND NOT bercak_hitam THEN hama = kutu_daun 
+IF daun_berlubang THEN hama = ulat 
+IF tanaman_layu AND daun_menguning THEN hama = nematoda_akar
+
+## Alur Inferensi:
+- User memasukkan jawaban untuk setiap gejala.
+- Sistem mengumpulkan fakta gejala.
+- Sistem mencocokkan fakta dengan aturan (rules).
+- Sistem memberikan diagnosis hama berdasarkan kecocokan aturan.
