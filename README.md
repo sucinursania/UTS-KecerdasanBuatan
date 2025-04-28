@@ -17,5 +17,9 @@ python Data\ Pendukung/soal1.py
 ---
 ## 2. `soal_1.txt`
 ```plaintext
+berisi pembuatan sistem pakar berbasis aturan logika proposisional, penggunaan pseudocode dan implementasi python dengan experta, serta menjelaskan alur inferensi dari input → output.
+```
 ## 3. `soal_2_review_jurnal.pdf`
-Mereview Jurnal Internasional dengan tujuan Mengembangkan platform bantu pembelajaran menulis bahasa Inggris berbasis sistem pemrosesan tugas tertanam (embedded system) dan jaringan sensor nirkabel, serta mengoptimalkan metode pengajaran dengan pendekatan korpus cerdas (intelligent corpus).
+```plaintext
+berisi penjelasan mengenai jurnal yang dikaji berjudul Application of Task Processing System Based on Wireless Sensor Network in English Writing Intelligent Assistance Platform yaitu untuk mengembangkan platform bantu pembelajaran menulis bahasa Inggris berbasis sistem pemrosesan tugas tertanam (embedded system) dan jaringan sensor nirkabel, serta mengoptimalkan metode pengajaran dengan pendekatan korpus cerdas (intelligent corpus).
+
